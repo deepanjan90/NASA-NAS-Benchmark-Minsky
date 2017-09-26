@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------
+[[17444,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: p8umbc2
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    1500000
+ Iterations:   100
+ Number of active processes:     1
+ Number of nonzeroes per row:       21
+ Eigenvalue shift: .500E+03
+
+Error: 
+num of procs allocated   (   1 )
+is not equal to
+compiled number of procs (   2 )
+
